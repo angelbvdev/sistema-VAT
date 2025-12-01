@@ -1,0 +1,11 @@
+# Ignorar todo dentro de estas carpetas
+audio/*
+texto/*
+videos/*
+
+# Pero mantener la carpeta en Git
+!audio/.gitkeep
+!texto/.gitkeep
+!videos/.gitkeep
+
+venv/
